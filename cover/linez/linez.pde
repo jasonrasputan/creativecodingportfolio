@@ -5,7 +5,7 @@
  */
 
 // Set number of circles
-int count = 100;
+int count = 10;
 // Set maximum and minimum circle size
 int maxSize = 100;
 int minSize = 80;
@@ -64,7 +64,7 @@ void setup() {
 // Begin main draw loop (called 25 times per second)
 void draw() {
   // Fill background black
-  background(0);
+  background(0,0,0,0);
   // Begin looping through circle array
   for (int j=0;j< count;j++) {
     // Disable shape stroke/border
