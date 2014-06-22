@@ -48,7 +48,7 @@ void setup() {
   // Frame rate
   frameRate(60);
   // Size of canvas (width,height)
-  size(157, 128);
+  size(357, 328);
   // Stroke/line/border thickness
   strokeWeight(.5);
   // Initiate array with random values for circles
