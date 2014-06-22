@@ -28,6 +28,12 @@ html,
 body {
   height: 100%;
   background-color: #333;
+    background-image: url(http://www.blofield.com/wp-content/uploads/2013/04/VBB_zwart_voor_600x333px.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
 }
 body {
   color: #fff;
@@ -51,13 +57,13 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+    
 }
 
 /* Padding for spacing */
 .inner {
   padding: 30px;
 }
-
 
 /*
  * Header
@@ -111,10 +117,12 @@ body {
 
 .cover {
   padding: 0 20px;
+    color: rgb(100, 100, 100)
 }
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
+    
 }
 
 
@@ -151,6 +159,7 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+      
   }
 }
 
@@ -160,4 +169,8 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+h1 {
+    color: rgb(30, 30, 30);
 }
