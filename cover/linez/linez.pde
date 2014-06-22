@@ -19,7 +19,7 @@ boolean dragging=false;
 int lockedCircle; 
 int lockedOffsetX;
 int lockedOffsetY;
-float lineLength = 60;
+float lineLength = 70;
 // If user presses mouse...
 /*void mousePressed () {
   // Look for a circle the mouse is in, then lock that circle to the mouse
