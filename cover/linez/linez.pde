@@ -5,7 +5,7 @@
  */
 
 // Set number of circles
-int count = 10;
+int count = 50;
 // Set maximum and minimum circle size
 int maxSize = 100;
 int minSize = 80;
@@ -19,7 +19,7 @@ boolean dragging=false;
 int lockedCircle; 
 int lockedOffsetX;
 int lockedOffsetY;
-float lineLength = 50;
+float lineLength = 60;
 // If user presses mouse...
 /*void mousePressed () {
   // Look for a circle the mouse is in, then lock that circle to the mouse
