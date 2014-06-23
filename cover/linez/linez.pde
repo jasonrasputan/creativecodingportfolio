@@ -138,7 +138,7 @@ void draw() {
     // Turn off stroke/border
     noStroke();      
     // Draw dot in center of circle
-    rect(e[j][0]-ds, e[j][1]-ds, ds*2, ds*2);
+    //rect(e[j][0]-ds, e[j][1]-ds, ds*2, ds*2);
   }
 }
 
