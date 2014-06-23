@@ -19,7 +19,7 @@ boolean dragging=false;
 int lockedCircle; 
 int lockedOffsetX;
 int lockedOffsetY;
-float lineLength = 70;
+float lineLength = 90;
 // If user presses mouse...
 /*void mousePressed () {
   // Look for a circle the mouse is in, then lock that circle to the mouse
@@ -48,7 +48,7 @@ void setup() {
   // Frame rate
   frameRate(60);
   // Size of canvas (width,height)
-  size(557, 528);
+  size(1000, 1000);
   // Stroke/line/border thickness
   strokeWeight(.5);
   // Initiate array with random values for circles
